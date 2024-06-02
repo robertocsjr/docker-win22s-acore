@@ -4,7 +4,6 @@ services:
     container_name: windows
     environment:
       VERSION: "tiny11"
-      DISK_SIZE: "100G"
     devices:
       - /dev/kvm
     cap_add:
